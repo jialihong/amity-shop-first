@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.amity.shop.api.client.common.config.AppConfig,\
+  com.amity.shop.api.client.common.config.EntranceClientConfig

@@ -10,10 +10,11 @@
         <module>shop-entrance-api-client</module>
     </modules>
 
+    <!-- 若使用spring-boot-starter-parent 2.4.5版本 启动时会报错：找不到类ConfigurationBeanFactoryMetadata -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.5</version>
+        <version>2.3.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.amity.shop</groupId>

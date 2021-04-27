@@ -1,0 +1,7 @@
+server:
+  port: 7800
+spring:
+  application:
+    name: shop-gateway
+  profiles:
+    active: dev
